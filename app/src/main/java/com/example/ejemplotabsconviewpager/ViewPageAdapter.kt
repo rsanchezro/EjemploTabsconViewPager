@@ -11,7 +11,9 @@ class ViewPageAdapter(gestorFragmentos:FragmentManager,ciclo_vida:Lifecycle):Fra
     val lista_fragmentos= mutableListOf<Fragment>()
     override fun getItemCount(): Int=lista_fragmentos.size
 
+    //Cada vez que se cambia de posición en el viewPager se invoca
     override fun createFragment(position: Int): Fragment {
+
        lista_fragmentos.get(position).arguments= Bundle().apply {
            putString("param1","INFORMACION")
        }
