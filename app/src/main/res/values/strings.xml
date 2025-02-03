@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EjemploTabsconViewPager</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="fragment_faltas">FRAGMENTO_FALTAS</string>
+    <string name="fragmento_partes">FRAGMENTO PARTES</string>
+    <string name="fragmento_positivos">FRAGMENTO POSITIVOS\n</string>
+</resources>
